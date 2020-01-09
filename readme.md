@@ -3,7 +3,7 @@
  Becoming a web developer would allow me the opertunity to change the world. Developers have the ability to reach and affect countless numbers of lives. The internet has made the world a more informed, educated and unified place. A never ending blank canvas.
 
  # GitHub URL
- https://github.com/HusamAhalim/Bio 
+https://husamahalim.github.io/Bio_Wk2/
 
  # Live URL
 
