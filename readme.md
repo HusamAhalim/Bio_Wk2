@@ -7,7 +7,7 @@ https://husamahalim.github.io/Bio_Wk2/
 
  # Live URL
 
-https://husamahalim.github.io/Bio/
+https://husamahalim.github.io/Bio_Wk2/
  # Code Example
 
 Current projects are created using a combination of HTML, CSS and Bootstrap to create a web page about ourself. Future projects will incorporate the use of JavaScript, Python along with others.
