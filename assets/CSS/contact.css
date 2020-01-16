@@ -8,14 +8,14 @@ color: rgb(73, 69, 69);
 }
 
 #jumbo {
-  background-image: url("../Images/Blue-Gradient-Background-1024x374.jpg")
+  background-image: url("../images/Blue-Gradient-Background-1024x374.jpg")
       
 }
 /* jumbotron */
 .jumbotron {
   min-height: 400px;
     margin: 0px;
-  background-image: url("../Images/Blue-Gradient-Background-1024x374.jpg")
+  background-image: url("../images/Blue-Gradient-Background-1024x374.jpg")
   
     background-size: cover; 
   }
