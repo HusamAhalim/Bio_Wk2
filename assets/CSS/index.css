@@ -9,8 +9,9 @@ color: rgb(73, 69, 69);
 }
 
 #jumbo {
-  background-image: url("../images/Blue-Gradient-Background-1024x374.jpg")
-      
+  /* background-image: url("../images/Blue-Gradient-Background-1024x374.jpg")
+     */
+     background-image: url(https://lh3.googleusercontent.com/as90VWuvArpv2Okhh2UAbhTX0NuBPL6zTUEsU5DKNYtgN-C2y0GhZjbwtZTYzUPf42vq4e5LeCAJ067B--9k32PQwhv60uZiyxqkdRqixuLab05x9WYrh4YcprjgmXLh1ljGNgHqyg=w2400);
 }
 /* jumbotron */
 .jumbotron {
