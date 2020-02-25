@@ -1,81 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sam Ahalim - Updated Version</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
-    
-    <title>Sam Ahalim</title>
-  </head>
-  <body>
-<!-- jumbotron with quote over background image -->
-    <div class="container1; height-30%;">
-      <div class="col-sm-12">
-    <div class="jumbotron" id="jumbo">
-      <div id=quote>
-        <!-- quote -->
-      <div class=par>"Why fit in when you were born to stand out."</div>
-     <p> Dr. Seuss</p>
-
-    </div>
-    </div>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <!-- Start header -->
+  <!-- Question: fixed-top ties the navbar to the top but also the container why -->
+  <nav class="navbar navbar-expand-md bg-light fixed-top">
+    <!-- need to add row with col offset to adjust alignment of brand-->
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand ">Sam Ahalim</a>
+            </div>
+            <ul class="navbar-nav navbar-right">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+  </nav>
+  <!-- end header -->
+  <!-- start container -->
+  <div class="container-fluid">
+    <div class="row">
+      <section id="details">
+        <div id="portLable">
+        <p>Click on Icon to View Project</p>
+        </div>
+      <div class="product">
+        <a href="https://husamahalim.github.io/quiz-timer/">
+          <div class="product-label">Quiz</div>
+        <img src="./assets/image/quiz.png" alt="Coding Quiz" class="image-formatter">
+        </a>
       </div>
+      <div class="product">
+        <a href="https://husamahalim.github.io/day-Calendar/">
+          <div class="product-label">Day Planner</div>
+        <img src="./assets/image/cal.png" alt="Day Planner" class="image-formatter">
+        </a>
       </div>
+      <div class="product">
+        <a href="https://husamahalim.github.io/Weather/">
+        <div class="product-label">Weather Dashboard</div>
+        <img src="./assets/image/weather.png" alt="Weather Dashboard" class="image-formatter">
+        </a>
       </div>
+      <div class="product">
+        <a href="https://reila-githubuid.github.io/FindRecipeProject/">
+        <div class="product-label">Recipe or Restaurant</div>
+        <img src="./assets/image/project1.png" alt="Recipe or Restaurant" class="image-formatter">
+        </a>
+      </div>
+      <div class="product">
+        <a href=" https://husamahalim.github.io/password/">
+        <div class="product-label">Password Generator</div>
+        <img src="./assets/image/shield.png" alt="Password Generator" class="image-formatter">
+        </a>
+      </div>
+      </section>
     </div>
-    <!-- nav bar -->
-    <div class="container1">
-   <div id=link>
-    <nav class="bg-dark">
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          
-        </li>
-      </ul>
-      </nav>
-    </div>
-  </div>
-  
-<!-- porfolio images -->
-  <div class="container pt-4 my-3 border">
-    <div class="col-sm">
- 
-    <h1>Portfolio</h1>
-    <div class="portfolio">
-      <!-- links -->
-      <img src="./assets/images/Ball.jpg" alt="Ball of Fire" width="100" height="100">
-      <img src="./assets/images/Glass.jpg" alt="Glass Ceiling" width="100" height="100">
-      <img src="./assets/images/Lights.jpg" alt="Lights" width="100" height="100">
-      <img src="./assets/images/Warp.jpg" alt="Warp" width="100" height="100">
-         
-   
-  <br>
-<br>
-<br>
-<br>
- 
-   
-</div>
+  </div>    
 
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+<!-- Strart Footer -->
+  <nav class="navbar fixed-bottom footer">
+      <div class="footer-text">2020 Copyright ©</div>
+  </nav>
+<!-- Footer -->
+</body>
 </html>
