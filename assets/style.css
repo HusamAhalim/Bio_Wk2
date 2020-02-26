@@ -1,7 +1,7 @@
 body {
     /* image for background */
-    background-image: url('../images/low_contrast_linen/low_contrast_linen.png');
-  
+    /* background-image: url('../images/low_contrast_linen/low_contrast_linen.png'); */
+  background-color: rgb(168, 166, 166);
     /* font parameters */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
@@ -14,20 +14,23 @@ body {
   .navbar {
     /* pulls everything down to push up against bottom border */
     padding-bottom: 0;
+    color: #666;
   
     /* allows ??? to control the horizontal position */
     padding-left: 0;
   
-    /* creates solid line for the bottom border  */
+    /*solid line for the bottom border  */
     border-bottom: solid;
-    border-bottom-color: #ccc;
+    border-width: 4px;
+    border-bottom-color: #4aaaa5;
   }
   
   .navbar-brand {
     background-color: #4aaaa5;
     padding: 15px;
+    margin-bottom: -2px;
     font-size: 30px;
-    color: #fff !important; /* TODO can we do this without the !important */
+    color: #fff !important; 
   }
   
   li {
@@ -42,28 +45,27 @@ body {
   .container-fluid {
     padding-left: 5%;
     padding-right: 5%;
+    
   }
   
   .nav-link {
     text-decoration: none;
-    color: #777 !important;
+    color: #4Cabc2;
   }
   
   /* Change the color of links on hover */
   .nav-link:hover {
-    /* question how do i impact these values without using important */
-    background-color: #4Cabc2 !important;
-    color: #fff !important;
+   
+    background-color: #4Cabc2;
+    color: rgb(244, 246, 247);
   }
   
-  /* this is not working */
-  .nav-link:after { 
-    border-right: solid 1px;
-    border-right-color: #c7c7c7;
+  #aboutMe {
+    font-size: 25px;
   }
-  
+ 
   #details {
-    background-color: #fff;  
+    background-color:rgb(168, 166, 166);  
     /* provides spacing between the top and bottom nav bars and the content */
     margin-top: 20px;
     margin-bottom: 80px;
@@ -79,12 +81,13 @@ body {
   }
   
   input, textarea {
-    width: 100%;
+    width: 95%;
+    
   }
   
   .footer {
     /* set text properties */
-    background-color: #666;
+    background-color: rgb(126, 125, 125);
     
     /* sets height of footer*/
     height: 10%;
@@ -103,8 +106,7 @@ body {
     font-size: 10px;
     color:#fff; 
   }
-  
-  /* media query for screen size to be applied to center text to switch at same time as navbar */
+ 
   @media (max-width: 768px) {
     .container-fluid {
       /* removes paddding on either side */
